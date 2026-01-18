@@ -1,0 +1,49 @@
+# Aadhar Anomaly Detection Configuration
+
+# Data Paths
+data:
+  raw_dir: "raw"
+  processed_dir: "processed"
+  output_dir: "output"
+  
+  # Dataset specific paths
+  biometric_dir: "raw/api_data_aadhar_biometric"
+  demographic_dir: "raw/api_data_aadhar_demographic"
+  enrolment_dir: "raw/api_data_aadhar_enrolment"
+
+# Anomaly Detection Thresholds
+anomaly_detection:
+  # Statistical thresholds
+  z_score_threshold: 3.0
+  iqr_multiplier: 1.5
+  
+  # Spike detection
+  spike_threshold: 10.0  # 10x increase
+  
+  # Isolation Forest
+  contamination: 0.01  # Expected proportion of outliers (1%)
+  
+  # Autoencoder
+  reconstruction_threshold_percentile: 95
+  
+# Feature Engineering
+features:
+  rolling_windows: [7, 14, 30]  # days
+  lag_periods: [1, 7, 30]  # days
+
+# Geography
+geography:
+  state_column: "state"
+  district_column: "district"
+  pincode_column: "pincode"
+
+# Temporal
+temporal:
+  date_column: "date"
+  date_format: "%d-%m-%Y"
+
+# Output
+output:
+  save_processed: true
+  save_anomalies: true
+  generate_reports: true
