@@ -1,0 +1,96 @@
+============================================================
+AADHAR ANOMALY DETECTION - SUMMARY REPORT
+============================================================
+
+Total anomaly files generated: 17
+
+
+biometric_geographic_outliers.csv
+  Anomalies detected: 4162
+  Affected states: 39
+  Top states: Andhra Pradesh, West Bengal, Tamil Nadu, Maharashtra, Karnataka
+
+biometric_iqr_anomalies.csv
+  Anomalies detected: 411530
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 43
+  Top states: Maharashtra, Uttar Pradesh, Tamil Nadu, Madhya Pradesh, Rajasthan
+
+biometric_isolation_forest.csv
+  Anomalies detected: 17632
+  Date range: 2025-03-01 to 2025-12-27
+  Affected states: 30
+  Top states: Uttar Pradesh, Maharashtra, Madhya Pradesh, Bihar, Gujarat
+
+biometric_temporal_spikes.csv
+  Anomalies detected: 10
+  Date range: 2025-03-01 to 2025-07-01
+
+biometric_zscore_anomalies.csv
+  Anomalies detected: 41857
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 35
+  Top states: Uttar Pradesh, Maharashtra, Madhya Pradesh, Bihar, Gujarat
+
+cross_dataset_ratio_anomalies.csv
+  Anomalies detected: 96718
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 42
+  Top states: Maharashtra, Tamil Nadu, Andhra Pradesh, Rajasthan, Karnataka
+
+data_quality_issues.csv
+  Anomalies detected: 13
+
+demographic_geographic_outliers.csv
+  Anomalies detected: 4875
+  Affected states: 39
+  Top states: West Bengal, Andhra Pradesh, Karnataka, Maharashtra, Tamil Nadu
+
+demographic_iqr_anomalies.csv
+  Anomalies detected: 278491
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 37
+  Top states: Uttar Pradesh, Bihar, Maharashtra, West Bengal, Madhya Pradesh
+
+demographic_isolation_forest.csv
+  Anomalies detected: 15954
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 36
+  Top states: Uttar Pradesh, Maharashtra, Madhya Pradesh, Bihar, Andhra Pradesh
+
+demographic_temporal_spikes.csv
+  Anomalies detected: 2
+  Date range: 2025-03-01 to 2025-03-01
+
+demographic_zscore_anomalies.csv
+  Anomalies detected: 17428
+  Date range: 2025-03-01 to 2025-12-29
+  Affected states: 34
+  Top states: Uttar Pradesh, Madhya Pradesh, Rajasthan, Maharashtra, Bihar
+
+enrolment_geographic_outliers.csv
+  Anomalies detected: 8915
+  Affected states: 38
+  Top states: Andhra Pradesh, West Bengal, Karnataka, Maharashtra, Tamil Nadu
+
+enrolment_iqr_anomalies.csv
+  Anomalies detected: 271111
+  Date range: 2025-03-02 to 2025-12-31
+  Affected states: 42
+  Top states: Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, West Bengal
+
+enrolment_isolation_forest.csv
+  Anomalies detected: 9830
+  Date range: 2025-03-02 to 2025-12-31
+  Affected states: 34
+  Top states: Uttar Pradesh, Bihar, Madhya Pradesh, Assam, West Bengal
+
+enrolment_temporal_spikes.csv
+  Anomalies detected: 5
+  Date range: 2025-04-01 to 2025-07-01
+
+enrolment_zscore_anomalies.csv
+  Anomalies detected: 9493
+  Date range: 2025-03-02 to 2025-12-31
+  Affected states: 34
+  Top states: Uttar Pradesh, Assam, Gujarat, Bihar, Madhya Pradesh

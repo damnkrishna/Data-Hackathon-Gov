@@ -1,0 +1,107 @@
+============================================================
+AADHAR ANOMALY DETECTION - EDA SUMMARY
+============================================================
+
+
+BIOMETRIC Dataset
+------------------------------------------------------------
+Records: 1,766,212
+Date Range: 2025-03-01 00:00:00 to 2025-12-29 00:00:00
+States: 46
+Districts: 974
+Pincodes: 19707
+
+Value Columns Statistics:
+
+bio_age_5_17:
+  Total: 33,456,647
+  Mean: 18.94
+  Median: 4.00
+  Max: 8,002
+  99th percentile: 310.00
+
+bio_age_17_:
+  Total: 34,804,412
+  Mean: 19.71
+  Median: 4.00
+  Max: 7,625
+  99th percentile: 337.00
+
+week:
+  Total: 74,594,941
+  Mean: 42.23
+  Median: 44.00
+  Max: 52
+  99th percentile: 52.00
+
+
+DEMOGRAPHIC Dataset
+------------------------------------------------------------
+Records: 1,598,099
+Date Range: 2025-03-01 00:00:00 to 2025-12-29 00:00:00
+States: 54
+Districts: 983
+Pincodes: 19742
+
+Value Columns Statistics:
+
+demo_age_5_17:
+  Total: 3,597,737
+  Mean: 2.25
+  Median: 1.00
+  Max: 2,690
+  99th percentile: 20.00
+
+demo_age_17_:
+  Total: 32,999,822
+  Mean: 20.65
+  Median: 6.00
+  Max: 16,166
+  99th percentile: 211.00
+
+week:
+  Total: 70,163,297
+  Mean: 43.90
+  Median: 45.00
+  Max: 52
+  99th percentile: 52.00
+
+
+ENROLMENT Dataset
+------------------------------------------------------------
+Records: 983,072
+Date Range: 2025-03-02 00:00:00 to 2025-12-31 00:00:00
+States: 48
+Districts: 985
+Pincodes: 19463
+
+Value Columns Statistics:
+
+age_0_5:
+  Total: 3,474,389
+  Mean: 3.53
+  Median: 2.00
+  Max: 2,688
+  99th percentile: 24.00
+
+age_5_17:
+  Total: 1,690,909
+  Mean: 1.72
+  Median: 0.00
+  Max: 1,812
+  99th percentile: 14.00
+
+age_18_greater:
+  Total: 166,462
+  Mean: 0.17
+  Median: 0.00
+  Max: 855
+  99th percentile: 2.00
+
+week:
+  Total: 40,746,903
+  Mean: 41.45
+  Median: 43.00
+  Max: 52
+  99th percentile: 52.00
+
